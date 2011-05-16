@@ -1,0 +1,1 @@
+This library gathers together miscellaneous UI classes based on top of the Apple's Cocoa Touch UI classes.

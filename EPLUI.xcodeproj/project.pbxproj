@@ -1,0 +1,250 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7259C4DF1380FF45002F7507 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7259C4DE1380FF45002F7507 /* Foundation.framework */; };
+		7259C4E91380FFAA002F7507 /* EPLUI.h in Headers */ = {isa = PBXBuildFile; fileRef = 7259C4E81380FFAA002F7507 /* EPLUI.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7259C4F113810021002F7507 /* EPLEditorViewControllerDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = 7259C4EA13810020002F7507 /* EPLEditorViewControllerDelegate.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7259C4F213810021002F7507 /* NSBundle+EPLNiblet.h in Headers */ = {isa = PBXBuildFile; fileRef = 7259C4EB13810020002F7507 /* NSBundle+EPLNiblet.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7259C4F313810021002F7507 /* NSBundle+EPLNiblet.m in Sources */ = {isa = PBXBuildFile; fileRef = 7259C4EC13810020002F7507 /* NSBundle+EPLNiblet.m */; };
+		7259C4F413810021002F7507 /* UIColor-Expanded.h in Headers */ = {isa = PBXBuildFile; fileRef = 7259C4ED13810020002F7507 /* UIColor-Expanded.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7259C4F513810021002F7507 /* UIColor-Expanded.m in Sources */ = {isa = PBXBuildFile; fileRef = 7259C4EE13810020002F7507 /* UIColor-Expanded.m */; };
+		7259C4F613810021002F7507 /* UIImage+EPLTint.h in Headers */ = {isa = PBXBuildFile; fileRef = 7259C4EF13810021002F7507 /* UIImage+EPLTint.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7259C4F713810021002F7507 /* UIImage+EPLTint.m in Sources */ = {isa = PBXBuildFile; fileRef = 7259C4F013810021002F7507 /* UIImage+EPLTint.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		7259C4DB1380FF45002F7507 /* libEPLUI.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libEPLUI.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		7259C4DE1380FF45002F7507 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		7259C4E21380FF45002F7507 /* EPLUI-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "EPLUI-Prefix.pch"; sourceTree = "<group>"; };
+		7259C4E81380FFAA002F7507 /* EPLUI.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EPLUI.h; sourceTree = "<group>"; };
+		7259C4EA13810020002F7507 /* EPLEditorViewControllerDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EPLEditorViewControllerDelegate.h; sourceTree = "<group>"; };
+		7259C4EB13810020002F7507 /* NSBundle+EPLNiblet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSBundle+EPLNiblet.h"; sourceTree = "<group>"; };
+		7259C4EC13810020002F7507 /* NSBundle+EPLNiblet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSBundle+EPLNiblet.m"; sourceTree = "<group>"; };
+		7259C4ED13810020002F7507 /* UIColor-Expanded.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor-Expanded.h"; sourceTree = "<group>"; };
+		7259C4EE13810020002F7507 /* UIColor-Expanded.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor-Expanded.m"; sourceTree = "<group>"; };
+		7259C4EF13810021002F7507 /* UIImage+EPLTint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+EPLTint.h"; sourceTree = "<group>"; };
+		7259C4F013810021002F7507 /* UIImage+EPLTint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+EPLTint.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7259C4D81380FF45002F7507 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7259C4DF1380FF45002F7507 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7259C4D01380FF45002F7507 = {
+			isa = PBXGroup;
+			children = (
+				7259C4E01380FF45002F7507 /* EPLUI */,
+				7259C4DD1380FF45002F7507 /* Frameworks */,
+				7259C4DC1380FF45002F7507 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7259C4DC1380FF45002F7507 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7259C4DB1380FF45002F7507 /* libEPLUI.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7259C4DD1380FF45002F7507 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7259C4DE1380FF45002F7507 /* Foundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7259C4E01380FF45002F7507 /* EPLUI */ = {
+			isa = PBXGroup;
+			children = (
+				7259C4E81380FFAA002F7507 /* EPLUI.h */,
+				7259C4EA13810020002F7507 /* EPLEditorViewControllerDelegate.h */,
+				7259C4EB13810020002F7507 /* NSBundle+EPLNiblet.h */,
+				7259C4EC13810020002F7507 /* NSBundle+EPLNiblet.m */,
+				7259C4ED13810020002F7507 /* UIColor-Expanded.h */,
+				7259C4EE13810020002F7507 /* UIColor-Expanded.m */,
+				7259C4EF13810021002F7507 /* UIImage+EPLTint.h */,
+				7259C4F013810021002F7507 /* UIImage+EPLTint.m */,
+				7259C4E11380FF45002F7507 /* Supporting Files */,
+			);
+			path = EPLUI;
+			sourceTree = "<group>";
+		};
+		7259C4E11380FF45002F7507 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				7259C4E21380FF45002F7507 /* EPLUI-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		7259C4D91380FF45002F7507 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7259C4E91380FFAA002F7507 /* EPLUI.h in Headers */,
+				7259C4F113810021002F7507 /* EPLEditorViewControllerDelegate.h in Headers */,
+				7259C4F213810021002F7507 /* NSBundle+EPLNiblet.h in Headers */,
+				7259C4F413810021002F7507 /* UIColor-Expanded.h in Headers */,
+				7259C4F613810021002F7507 /* UIImage+EPLTint.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		7259C4DA1380FF45002F7507 /* EPLUI */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7259C4E51380FF45002F7507 /* Build configuration list for PBXNativeTarget "EPLUI" */;
+			buildPhases = (
+				7259C4D71380FF45002F7507 /* Sources */,
+				7259C4D81380FF45002F7507 /* Frameworks */,
+				7259C4D91380FF45002F7507 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = EPLUI;
+			productName = EPLUI;
+			productReference = 7259C4DB1380FF45002F7507 /* libEPLUI.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7259C4D21380FF45002F7507 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				ORGANIZATIONNAME = Plokodelika;
+			};
+			buildConfigurationList = 7259C4D51380FF45002F7507 /* Build configuration list for PBXProject "EPLUI" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7259C4D01380FF45002F7507;
+			productRefGroup = 7259C4DC1380FF45002F7507 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7259C4DA1380FF45002F7507 /* EPLUI */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7259C4D71380FF45002F7507 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7259C4F313810021002F7507 /* NSBundle+EPLNiblet.m in Sources */,
+				7259C4F513810021002F7507 /* UIColor-Expanded.m in Sources */,
+				7259C4F713810021002F7507 /* UIImage+EPLTint.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		7259C4E31380FF45002F7507 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		7259C4E41380FF45002F7507 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				SDKROOT = iphoneos;
+			};
+			name = Release;
+		};
+		7259C4E61380FF45002F7507 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				DSTROOT = /tmp/EPLUI.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "EPLUI/EPLUI-Prefix.pch";
+				OTHER_LDFLAGS = "-ObjC";
+				PRIVATE_HEADERS_FOLDER_PATH = include/EPLUI/Private;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = include/EPLUI;
+			};
+			name = Debug;
+		};
+		7259C4E71380FF45002F7507 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				DSTROOT = /tmp/EPLUI.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "EPLUI/EPLUI-Prefix.pch";
+				OTHER_LDFLAGS = "-ObjC";
+				PRIVATE_HEADERS_FOLDER_PATH = include/EPLUI/Private;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = include/EPLUI;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7259C4D51380FF45002F7507 /* Build configuration list for PBXProject "EPLUI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7259C4E31380FF45002F7507 /* Debug */,
+				7259C4E41380FF45002F7507 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7259C4E51380FF45002F7507 /* Build configuration list for PBXNativeTarget "EPLUI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7259C4E61380FF45002F7507 /* Debug */,
+				7259C4E71380FF45002F7507 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7259C4D21380FF45002F7507 /* Project object */;
+}
