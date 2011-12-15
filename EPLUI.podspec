@@ -7,8 +7,8 @@ Pod::Spec.new do |s|
   s.author   = { 'Andrey Subbotin' => 'andrey@subbotin.me' }
   s.source   = { :git => 'https://github.com/eploko/EPLUI.git', :tag => '0.1.1' }
   s.platform = :ios
-  s.source_files = 'EPLUI'
-  s.resources = "Resources/EPLUI.bundle"
+  s.source_files = 'EPLUI/*.{h,m}'
+  s.resources = 'Resources/EPLUI.bundle'
   s.frameworks = 'Foundation', 'UIKit'
   s.dependency 'RegexKitLite', '~> 4.0'
 end
