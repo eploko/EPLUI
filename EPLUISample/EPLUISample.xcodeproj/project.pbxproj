@@ -23,8 +23,8 @@
 		72B7EA6714995BBC00C8DD90 /* EPLUIEmailInputValidator.m in Sources */ = {isa = PBXBuildFile; fileRef = 72B7EA6614995BBC00C8DD90 /* EPLUIEmailInputValidator.m */; };
 		72B7EA6E14995EC300C8DD90 /* RegexKitLite.m in Sources */ = {isa = PBXBuildFile; fileRef = 72B7EA6D14995EC300C8DD90 /* RegexKitLite.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		72B7EA7014995FBE00C8DD90 /* libicucore.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 72B7EA6F14995FBE00C8DD90 /* libicucore.dylib */; };
-		72B7EA781499CE7000C8DD90 /* epl-right-view-error@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 72B7EA771499CE7000C8DD90 /* epl-right-view-error@2x.png */; };
-		72B7EA7A1499CEB400C8DD90 /* epl-right-view-error.png in Resources */ = {isa = PBXBuildFile; fileRef = 72B7EA791499CEB400C8DD90 /* epl-right-view-error.png */; };
+		72EEF302149A9DC800FB6EED /* EPLUI.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 72EEF301149A9DC800FB6EED /* EPLUI.bundle */; };
+		72EEF323149A9EBF00FB6EED /* NSBundle+EPLUI.m in Sources */ = {isa = PBXBuildFile; fileRef = 72EEF322149A9EBF00FB6EED /* NSBundle+EPLUI.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -58,8 +58,9 @@
 		72B7EA6C14995EC300C8DD90 /* RegexKitLite.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RegexKitLite.h; sourceTree = "<group>"; };
 		72B7EA6D14995EC300C8DD90 /* RegexKitLite.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RegexKitLite.m; sourceTree = "<group>"; };
 		72B7EA6F14995FBE00C8DD90 /* libicucore.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libicucore.dylib; path = usr/lib/libicucore.dylib; sourceTree = SDKROOT; };
-		72B7EA771499CE7000C8DD90 /* epl-right-view-error@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "epl-right-view-error@2x.png"; sourceTree = "<group>"; };
-		72B7EA791499CEB400C8DD90 /* epl-right-view-error.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "epl-right-view-error.png"; sourceTree = "<group>"; };
+		72EEF301149A9DC800FB6EED /* EPLUI.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = EPLUI.bundle; sourceTree = "<group>"; };
+		72EEF321149A9EBF00FB6EED /* NSBundle+EPLUI.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSBundle+EPLUI.h"; sourceTree = "<group>"; };
+		72EEF322149A9EBF00FB6EED /* NSBundle+EPLUI.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSBundle+EPLUI.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -146,6 +147,8 @@
 				72B7EA541499588800C8DD90 /* EPLUI.h */,
 				72B7EA531499588800C8DD90 /* EPLEditorViewControllerDelegate.h */,
 				72B7EA551499588800C8DD90 /* NSBundle+EPLNiblet.h */,
+				72EEF321149A9EBF00FB6EED /* NSBundle+EPLUI.h */,
+				72EEF322149A9EBF00FB6EED /* NSBundle+EPLUI.m */,
 				72B7EA561499588800C8DD90 /* NSBundle+EPLNiblet.m */,
 				72B7EA571499588800C8DD90 /* UIColor-Expanded.h */,
 				72B7EA581499588800C8DD90 /* UIColor-Expanded.m */,
@@ -175,8 +178,7 @@
 		72B7EA751499CE0800C8DD90 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				72B7EA791499CEB400C8DD90 /* epl-right-view-error.png */,
-				72B7EA771499CE7000C8DD90 /* epl-right-view-error@2x.png */,
+				72EEF301149A9DC800FB6EED /* EPLUI.bundle */,
 			);
 			name = Resources;
 			path = ../Resources;
@@ -234,8 +236,7 @@
 			files = (
 				72B075C01499582D00D86EE4 /* InfoPlist.strings in Resources */,
 				72B075CC1499582D00D86EE4 /* EPLViewController.xib in Resources */,
-				72B7EA781499CE7000C8DD90 /* epl-right-view-error@2x.png in Resources */,
-				72B7EA7A1499CEB400C8DD90 /* epl-right-view-error.png in Resources */,
+				72EEF302149A9DC800FB6EED /* EPLUI.bundle in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -256,6 +257,7 @@
 				72B7EA6414995A1300C8DD90 /* EPLUIInputValidator.m in Sources */,
 				72B7EA6714995BBC00C8DD90 /* EPLUIEmailInputValidator.m in Sources */,
 				72B7EA6E14995EC300C8DD90 /* RegexKitLite.m in Sources */,
+				72EEF323149A9EBF00FB6EED /* NSBundle+EPLUI.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

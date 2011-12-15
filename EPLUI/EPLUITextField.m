@@ -6,6 +6,8 @@
 //  Copyright (c) 2011 __MyCompanyName__. All rights reserved.
 //
 
+#import "NSBundle+EPLUI.h"
+
 #import "EPLUITextField.h"
 
 
@@ -54,9 +56,11 @@
 - (UIView *)rightErrorView
 {
     if (rightErrorView_ == nil) {
+        NSString *imagePath = [[NSBundle EPLUI] pathForResource:@"epl-right-view-error" ofType:@"png"];
+        UIImage *image = [UIImage imageWithContentsOfFile:imagePath];
         UIButton *button = [UIButton buttonWithType:UIButtonTypeCustom];
         button.frame = CGRectMake(0, 0, 24, 24);
-        [button setImage:[UIImage imageNamed:@"epl-right-view-error.png"] forState:UIControlStateNormal];
+        [button setImage:image forState:UIControlStateNormal];
         [button addTarget:self action:@selector(displayValidationError:) forControlEvents:UIControlEventTouchUpInside];
         rightErrorView_ = button;
     }

@@ -11,5 +11,6 @@
 #import "EPLUIInputValidator.h"
 #import "EPLUITextField.h"
 #import "NSBundle+EPLNiblet.h"
+#import "NSBundle+EPLUI.h"
 #import "UIColor-Expanded.h"
 #import "UIImage+EPLTint.h"
