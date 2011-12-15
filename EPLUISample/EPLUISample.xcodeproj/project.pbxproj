@@ -1,0 +1,383 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		72B075B61499582D00D86EE4 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 72B075B51499582D00D86EE4 /* UIKit.framework */; };
+		72B075B81499582D00D86EE4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 72B075B71499582D00D86EE4 /* Foundation.framework */; };
+		72B075BA1499582D00D86EE4 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 72B075B91499582D00D86EE4 /* CoreGraphics.framework */; };
+		72B075C01499582D00D86EE4 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 72B075BE1499582D00D86EE4 /* InfoPlist.strings */; };
+		72B075C21499582D00D86EE4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 72B075C11499582D00D86EE4 /* main.m */; };
+		72B075C61499582D00D86EE4 /* EPLAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 72B075C51499582D00D86EE4 /* EPLAppDelegate.m */; };
+		72B075C91499582D00D86EE4 /* EPLViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 72B075C81499582D00D86EE4 /* EPLViewController.m */; };
+		72B075CC1499582D00D86EE4 /* EPLViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 72B075CA1499582D00D86EE4 /* EPLViewController.xib */; };
+		72B7EA5B1499588800C8DD90 /* NSBundle+EPLNiblet.m in Sources */ = {isa = PBXBuildFile; fileRef = 72B7EA561499588800C8DD90 /* NSBundle+EPLNiblet.m */; };
+		72B7EA5C1499588800C8DD90 /* UIColor-Expanded.m in Sources */ = {isa = PBXBuildFile; fileRef = 72B7EA581499588800C8DD90 /* UIColor-Expanded.m */; };
+		72B7EA5D1499588800C8DD90 /* UIImage+EPLTint.m in Sources */ = {isa = PBXBuildFile; fileRef = 72B7EA5A1499588800C8DD90 /* UIImage+EPLTint.m */; };
+		72B7EA61149958FF00C8DD90 /* EPLUITextField.m in Sources */ = {isa = PBXBuildFile; fileRef = 72B7EA60149958FF00C8DD90 /* EPLUITextField.m */; };
+		72B7EA6414995A1300C8DD90 /* EPLUIInputValidator.m in Sources */ = {isa = PBXBuildFile; fileRef = 72B7EA6314995A1300C8DD90 /* EPLUIInputValidator.m */; };
+		72B7EA6714995BBC00C8DD90 /* EPLUIEmailInputValidator.m in Sources */ = {isa = PBXBuildFile; fileRef = 72B7EA6614995BBC00C8DD90 /* EPLUIEmailInputValidator.m */; };
+		72B7EA6E14995EC300C8DD90 /* RegexKitLite.m in Sources */ = {isa = PBXBuildFile; fileRef = 72B7EA6D14995EC300C8DD90 /* RegexKitLite.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		72B7EA7014995FBE00C8DD90 /* libicucore.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 72B7EA6F14995FBE00C8DD90 /* libicucore.dylib */; };
+		72B7EA781499CE7000C8DD90 /* epl-right-view-error@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 72B7EA771499CE7000C8DD90 /* epl-right-view-error@2x.png */; };
+		72B7EA7A1499CEB400C8DD90 /* epl-right-view-error.png in Resources */ = {isa = PBXBuildFile; fileRef = 72B7EA791499CEB400C8DD90 /* epl-right-view-error.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		72B075B11499582D00D86EE4 /* EPLUISample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EPLUISample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		72B075B51499582D00D86EE4 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		72B075B71499582D00D86EE4 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		72B075B91499582D00D86EE4 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		72B075BD1499582D00D86EE4 /* EPLUISample-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "EPLUISample-Info.plist"; sourceTree = "<group>"; };
+		72B075BF1499582D00D86EE4 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		72B075C11499582D00D86EE4 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		72B075C31499582D00D86EE4 /* EPLUISample-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "EPLUISample-Prefix.pch"; sourceTree = "<group>"; };
+		72B075C41499582D00D86EE4 /* EPLAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EPLAppDelegate.h; sourceTree = "<group>"; };
+		72B075C51499582D00D86EE4 /* EPLAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EPLAppDelegate.m; sourceTree = "<group>"; };
+		72B075C71499582D00D86EE4 /* EPLViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EPLViewController.h; sourceTree = "<group>"; };
+		72B075C81499582D00D86EE4 /* EPLViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EPLViewController.m; sourceTree = "<group>"; };
+		72B075CB1499582D00D86EE4 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/EPLViewController.xib; sourceTree = "<group>"; };
+		72B7EA531499588800C8DD90 /* EPLEditorViewControllerDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EPLEditorViewControllerDelegate.h; sourceTree = "<group>"; };
+		72B7EA541499588800C8DD90 /* EPLUI.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EPLUI.h; sourceTree = "<group>"; };
+		72B7EA551499588800C8DD90 /* NSBundle+EPLNiblet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSBundle+EPLNiblet.h"; sourceTree = "<group>"; };
+		72B7EA561499588800C8DD90 /* NSBundle+EPLNiblet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSBundle+EPLNiblet.m"; sourceTree = "<group>"; };
+		72B7EA571499588800C8DD90 /* UIColor-Expanded.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor-Expanded.h"; sourceTree = "<group>"; };
+		72B7EA581499588800C8DD90 /* UIColor-Expanded.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor-Expanded.m"; sourceTree = "<group>"; };
+		72B7EA591499588800C8DD90 /* UIImage+EPLTint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+EPLTint.h"; sourceTree = "<group>"; };
+		72B7EA5A1499588800C8DD90 /* UIImage+EPLTint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+EPLTint.m"; sourceTree = "<group>"; };
+		72B7EA5F149958FF00C8DD90 /* EPLUITextField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EPLUITextField.h; sourceTree = "<group>"; };
+		72B7EA60149958FF00C8DD90 /* EPLUITextField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EPLUITextField.m; sourceTree = "<group>"; };
+		72B7EA6214995A1300C8DD90 /* EPLUIInputValidator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EPLUIInputValidator.h; sourceTree = "<group>"; };
+		72B7EA6314995A1300C8DD90 /* EPLUIInputValidator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EPLUIInputValidator.m; sourceTree = "<group>"; };
+		72B7EA6514995BBC00C8DD90 /* EPLUIEmailInputValidator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EPLUIEmailInputValidator.h; sourceTree = "<group>"; };
+		72B7EA6614995BBC00C8DD90 /* EPLUIEmailInputValidator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EPLUIEmailInputValidator.m; sourceTree = "<group>"; };
+		72B7EA6C14995EC300C8DD90 /* RegexKitLite.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RegexKitLite.h; sourceTree = "<group>"; };
+		72B7EA6D14995EC300C8DD90 /* RegexKitLite.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RegexKitLite.m; sourceTree = "<group>"; };
+		72B7EA6F14995FBE00C8DD90 /* libicucore.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libicucore.dylib; path = usr/lib/libicucore.dylib; sourceTree = SDKROOT; };
+		72B7EA771499CE7000C8DD90 /* epl-right-view-error@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "epl-right-view-error@2x.png"; sourceTree = "<group>"; };
+		72B7EA791499CEB400C8DD90 /* epl-right-view-error.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "epl-right-view-error.png"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		72B075AE1499582D00D86EE4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				72B7EA7014995FBE00C8DD90 /* libicucore.dylib in Frameworks */,
+				72B075B61499582D00D86EE4 /* UIKit.framework in Frameworks */,
+				72B075B81499582D00D86EE4 /* Foundation.framework in Frameworks */,
+				72B075BA1499582D00D86EE4 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		72B075A61499582D00D86EE4 = {
+			isa = PBXGroup;
+			children = (
+				72B7EA6F14995FBE00C8DD90 /* libicucore.dylib */,
+				72B075BB1499582D00D86EE4 /* EPLUISample */,
+				72B075D21499583700D86EE4 /* Vendor */,
+				72B075B41499582D00D86EE4 /* Frameworks */,
+				72B075B21499582D00D86EE4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		72B075B21499582D00D86EE4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				72B075B11499582D00D86EE4 /* EPLUISample.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		72B075B41499582D00D86EE4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				72B075B51499582D00D86EE4 /* UIKit.framework */,
+				72B075B71499582D00D86EE4 /* Foundation.framework */,
+				72B075B91499582D00D86EE4 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		72B075BB1499582D00D86EE4 /* EPLUISample */ = {
+			isa = PBXGroup;
+			children = (
+				72B075C41499582D00D86EE4 /* EPLAppDelegate.h */,
+				72B075C51499582D00D86EE4 /* EPLAppDelegate.m */,
+				72B075C71499582D00D86EE4 /* EPLViewController.h */,
+				72B075C81499582D00D86EE4 /* EPLViewController.m */,
+				72B075CA1499582D00D86EE4 /* EPLViewController.xib */,
+				72B075BC1499582D00D86EE4 /* Supporting Files */,
+			);
+			path = EPLUISample;
+			sourceTree = "<group>";
+		};
+		72B075BC1499582D00D86EE4 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				72B075BD1499582D00D86EE4 /* EPLUISample-Info.plist */,
+				72B075BE1499582D00D86EE4 /* InfoPlist.strings */,
+				72B075C11499582D00D86EE4 /* main.m */,
+				72B075C31499582D00D86EE4 /* EPLUISample-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		72B075D21499583700D86EE4 /* Vendor */ = {
+			isa = PBXGroup;
+			children = (
+				72B075D31499584800D86EE4 /* EPLUI */,
+				72B7EA6B14995E9E00C8DD90 /* RegexKitLite */,
+			);
+			name = Vendor;
+			sourceTree = "<group>";
+		};
+		72B075D31499584800D86EE4 /* EPLUI */ = {
+			isa = PBXGroup;
+			children = (
+				72B7EA751499CE0800C8DD90 /* Resources */,
+				72B7EA541499588800C8DD90 /* EPLUI.h */,
+				72B7EA531499588800C8DD90 /* EPLEditorViewControllerDelegate.h */,
+				72B7EA551499588800C8DD90 /* NSBundle+EPLNiblet.h */,
+				72B7EA561499588800C8DD90 /* NSBundle+EPLNiblet.m */,
+				72B7EA571499588800C8DD90 /* UIColor-Expanded.h */,
+				72B7EA581499588800C8DD90 /* UIColor-Expanded.m */,
+				72B7EA591499588800C8DD90 /* UIImage+EPLTint.h */,
+				72B7EA5A1499588800C8DD90 /* UIImage+EPLTint.m */,
+				72B7EA5F149958FF00C8DD90 /* EPLUITextField.h */,
+				72B7EA60149958FF00C8DD90 /* EPLUITextField.m */,
+				72B7EA6214995A1300C8DD90 /* EPLUIInputValidator.h */,
+				72B7EA6314995A1300C8DD90 /* EPLUIInputValidator.m */,
+				72B7EA6514995BBC00C8DD90 /* EPLUIEmailInputValidator.h */,
+				72B7EA6614995BBC00C8DD90 /* EPLUIEmailInputValidator.m */,
+			);
+			name = EPLUI;
+			path = ../EPLUI;
+			sourceTree = "<group>";
+		};
+		72B7EA6B14995E9E00C8DD90 /* RegexKitLite */ = {
+			isa = PBXGroup;
+			children = (
+				72B7EA6C14995EC300C8DD90 /* RegexKitLite.h */,
+				72B7EA6D14995EC300C8DD90 /* RegexKitLite.m */,
+			);
+			name = RegexKitLite;
+			path = ../Vendor/RegexKitLite;
+			sourceTree = "<group>";
+		};
+		72B7EA751499CE0800C8DD90 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				72B7EA791499CEB400C8DD90 /* epl-right-view-error.png */,
+				72B7EA771499CE7000C8DD90 /* epl-right-view-error@2x.png */,
+			);
+			name = Resources;
+			path = ../Resources;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		72B075B01499582D00D86EE4 /* EPLUISample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 72B075CF1499582D00D86EE4 /* Build configuration list for PBXNativeTarget "EPLUISample" */;
+			buildPhases = (
+				72B075AD1499582D00D86EE4 /* Sources */,
+				72B075AE1499582D00D86EE4 /* Frameworks */,
+				72B075AF1499582D00D86EE4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = EPLUISample;
+			productName = EPLUISample;
+			productReference = 72B075B11499582D00D86EE4 /* EPLUISample.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		72B075A81499582D00D86EE4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = 72B075AB1499582D00D86EE4 /* Build configuration list for PBXProject "EPLUISample" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 72B075A61499582D00D86EE4;
+			productRefGroup = 72B075B21499582D00D86EE4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				72B075B01499582D00D86EE4 /* EPLUISample */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		72B075AF1499582D00D86EE4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				72B075C01499582D00D86EE4 /* InfoPlist.strings in Resources */,
+				72B075CC1499582D00D86EE4 /* EPLViewController.xib in Resources */,
+				72B7EA781499CE7000C8DD90 /* epl-right-view-error@2x.png in Resources */,
+				72B7EA7A1499CEB400C8DD90 /* epl-right-view-error.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		72B075AD1499582D00D86EE4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				72B075C21499582D00D86EE4 /* main.m in Sources */,
+				72B075C61499582D00D86EE4 /* EPLAppDelegate.m in Sources */,
+				72B075C91499582D00D86EE4 /* EPLViewController.m in Sources */,
+				72B7EA5B1499588800C8DD90 /* NSBundle+EPLNiblet.m in Sources */,
+				72B7EA5C1499588800C8DD90 /* UIColor-Expanded.m in Sources */,
+				72B7EA5D1499588800C8DD90 /* UIImage+EPLTint.m in Sources */,
+				72B7EA61149958FF00C8DD90 /* EPLUITextField.m in Sources */,
+				72B7EA6414995A1300C8DD90 /* EPLUIInputValidator.m in Sources */,
+				72B7EA6714995BBC00C8DD90 /* EPLUIEmailInputValidator.m in Sources */,
+				72B7EA6E14995EC300C8DD90 /* RegexKitLite.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		72B075BE1499582D00D86EE4 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				72B075BF1499582D00D86EE4 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		72B075CA1499582D00D86EE4 /* EPLViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				72B075CB1499582D00D86EE4 /* en */,
+			);
+			name = EPLViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		72B075CD1499582D00D86EE4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		72B075CE1499582D00D86EE4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		72B075D01499582D00D86EE4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "EPLUISample/EPLUISample-Prefix.pch";
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/../Vendor\"",
+				);
+				INFOPLIST_FILE = "EPLUISample/EPLUISample-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		72B075D11499582D00D86EE4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "EPLUISample/EPLUISample-Prefix.pch";
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/../Vendor\"",
+				);
+				INFOPLIST_FILE = "EPLUISample/EPLUISample-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		72B075AB1499582D00D86EE4 /* Build configuration list for PBXProject "EPLUISample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				72B075CD1499582D00D86EE4 /* Debug */,
+				72B075CE1499582D00D86EE4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		72B075CF1499582D00D86EE4 /* Build configuration list for PBXNativeTarget "EPLUISample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				72B075D01499582D00D86EE4 /* Debug */,
+				72B075D11499582D00D86EE4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 72B075A81499582D00D86EE4 /* Project object */;
+}

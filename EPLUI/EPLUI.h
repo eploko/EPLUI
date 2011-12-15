@@ -7,6 +7,9 @@
 //
 
 #import "EPLEditorViewControllerDelegate.h"
+#import "EPLUIEmailInputValidator.h"
+#import "EPLUIInputValidator.h"
+#import "EPLUITextField.h"
 #import "NSBundle+EPLNiblet.h"
 #import "UIColor-Expanded.h"
 #import "UIImage+EPLTint.h"
